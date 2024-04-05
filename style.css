@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.movie {
+    position: relative;
+    margin: 20px;
+}
+
+.movie img {
+    display: block;
+    max-width: 300px;
+    height: auto;
+}
+
+.rating-top-right, .tickets-bottom-left {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.7); 
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.rating-top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.tickets-bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
